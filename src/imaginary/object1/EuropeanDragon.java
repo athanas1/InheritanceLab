@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary.object;
+package imaginary.object1;
 
 /**
  *
@@ -20,7 +20,10 @@ public class EuropeanDragon extends Dragon {
     public void giveGift() {
         System.out.println("My gift to you is death!");
     }
- 
+    
+    public void hoardTreasure(){
+        System.out.println("I am a European Dragon, I hoard treasure!");
+    }
   
     
 }

@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary.object;
+package real.world.objects;
 
 /**
  *
  * @author Alex
  */
-public abstract class StartUp {
-
- 
+public interface WebBrowser extends SoftwareApplication {
+    public abstract void surfTheWeb();
+    
 }
