@@ -9,8 +9,19 @@ package imaginary.object;
  *
  * @author Alex
  */
-public class EuropeanDragon {
+public class EuropeanDragon extends Dragon {
+    // method from Dragon
+    @Override
+    public void breatheFire() {
+        System.out.println("I breathe fire on you to kill you!");
+    }
+    // method from MythoCreature
+    @Override
+    public void giveGift() {
+        System.out.println("My gift to you is death!");
+    }
  
+  
     
 }
 

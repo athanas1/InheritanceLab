@@ -10,6 +10,19 @@ package imaginary.object;
  * @author Alex
  */
 public abstract class Dragon extends MythologicalCreature {
-    @
-    
+    // taking the abstractions from MythoCreature and overriding them
+    private int age;
+
+    @Override
+    public int getAge() {
+        return age;
+    }
+
+    @Override
+    public void setAge(int age) {
+        // validation
+        this.age = age;
+    }
+   
+    public abstract void breatheFire();
 }
