@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DragonAbs;
+package imaginary.objectdruid;
 
 /**
  *
- * @author Alex
+ * @author L115student
  */
-public abstract class StartUp {
-
- 
+public interface Archetype {
+    public abstract void choseAlignment();
 }
