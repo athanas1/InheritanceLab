@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary.object1;
+package imaginary.object3;
 
 /**
  *
  * @author Alex
  */
-public abstract class HogwartStudent implements Wizard {
-  
+public abstract class HogwartStudent extends Wizard {
     public abstract void attendClass();
     
     
-     
 }

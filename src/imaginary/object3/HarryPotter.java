@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package imaginary.object1;
+package imaginary.object3;
 
 /**
  *
@@ -27,9 +27,6 @@ public class HarryPotter extends HogwartStudent {
     public void attendClass() {
         System.out.println("Harry attended class");}
 
-    @Override
-    public void castSpell() {
-        System.out.println("Pew Pew I cast a Spell");}
 
     @Override
     public void callPet() {
