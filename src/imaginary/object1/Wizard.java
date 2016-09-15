@@ -15,4 +15,5 @@ public interface Wizard {
     public abstract void setMagicPower(int magicpower);
     
     public abstract void castSpell();
+    public abstract void callPet();
 }

@@ -9,6 +9,21 @@ package imaginary.object1;
  *
  * @author Alex
  */
-public abstract class HogwartStudent {
+public abstract class HogwartStudent implements Wizard {
+    private int magicPower;
     
+   @Override
+   public  int getMagicPower(){
+       return magicPower;
+   };
+    
+   @Override
+    public void setMagicPower(int magicpower){
+        //validation
+        this.magicPower = magicPower;
+    };
+    public abstract void attendClass();
+    
+    
+     
 }
