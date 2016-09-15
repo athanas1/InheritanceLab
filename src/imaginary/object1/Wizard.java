@@ -9,12 +9,10 @@ package imaginary.object1;
  *
  * @author Alex
  */
-public abstract class MythologicalCreature {
-// Assuming all Mythological creatures have an age and give some sort of deed good or bad
-
-    public abstract int getAge();
-
-    public abstract void setAge(int age);
+public interface Wizard {
+    public abstract int getMagicPower();
     
-    public abstract void giveGift();
+    public abstract void setMagicPower(int magicpower);
+    
+    public abstract void castSpell();
 }
